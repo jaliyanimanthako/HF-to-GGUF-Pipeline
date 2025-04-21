@@ -1,6 +1,3 @@
-Here’s the full README.md content:
-
-```markdown
 # 🦙 llama.cpp Automation Toolkit
 
 This repository contains a set of automation scripts to streamline the setup, build, conversion, and optional quantization process for [llama.cpp](https://github.com/ggerganov/llama.cpp), a C++ inference engine for LLaMA-based models.
@@ -152,6 +149,3 @@ python convert_and_quantize.py \
 
 - [`llama.cpp`](https://github.com/ggerganov/llama.cpp) by Georgi Gerganov
 - Scripts authored and maintained by [Your Name](https://github.com/your-profile)
-```
-
-Feel free to adjust the placeholders such as "Your Name" or any other relevant links! Let me know if you need anything else.
