@@ -148,4 +148,4 @@ python convert_and_quantize.py \
 ## ✨ Credits
 
 - [`llama.cpp`](https://github.com/ggerganov/llama.cpp) by Georgi Gerganov
-- Scripts authored and maintained by [Your Name](https://github.com/jaliyanimanthako)
+- Scripts authored and maintained by [Jaliya Nimantha](https://github.com/jaliyanimanthako)
