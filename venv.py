@@ -9,7 +9,7 @@ def create_virtualenv():
 
     # Create the virtual environment
     subprocess.run(["python3", "-m", "venv", str(venv_path)], check=True)
-    print("Virtual environment created.")
+    print("Virtual environment creating.")
 
     # Upgrade pip, wheel, and setuptools
     subprocess.run([str(python_in_venv), "-m", "pip", "install", "--upgrade", "pip", "wheel", "setuptools"], check=True)

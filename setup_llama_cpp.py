@@ -1,7 +1,7 @@
 import subprocess
 import os
 import argparse
-from requirenments import create_virtualenv
+from venv import create_virtualenv
 
 """
 This script automates the setup and build process for the `llama.cpp` project, a C++ implementation of Facebook's LLaMA models. It handles the cloning of the repository, initializing required git submodules, configuring the build environment using CMake with Ninja, compiling the project using a specified number of parallel jobs, and finally setting up a Python virtual environment with required dependencies.
