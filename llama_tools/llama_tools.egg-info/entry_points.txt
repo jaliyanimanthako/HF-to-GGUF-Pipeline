@@ -1,0 +1,4 @@
+[console_scripts]
+llama-convert = llama_tools.convert_and_quantize:main
+llama-setup = llama_tools.setup_llama_cpp:main
+llama-upload = llama_tools.push_gguf:main

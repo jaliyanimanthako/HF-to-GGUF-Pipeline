@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llama-tools"
+version = "0.1.0"
+description = "Tools for setting up, converting, and uploading llama.cpp models"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.8"
+dependencies = [
+    "huggingface_hub"
+]
+
+[project.scripts]
+llama-setup = "llama_tools.setup_llama_cpp:main"
+llama-convert = "llama_tools.convert_and_quantize:main"
+llama-upload = "llama_tools.push_gguf:main"
