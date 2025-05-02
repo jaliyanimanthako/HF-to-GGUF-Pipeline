@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Tools for setting up, converting, and uploading llama.cpp models"
 readme = "README.md"
 license = { file = "LICENSE" }
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Jaliya Nimantha", email = "jaliya@ahlab.org" }]
 requires-python = ">=3.8"
 dependencies = [
     "huggingface_hub"

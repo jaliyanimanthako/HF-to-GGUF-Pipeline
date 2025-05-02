@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: llama-tools
 Version: 0.1.0
 Summary: Tools for setting up, converting, and uploading llama.cpp models
-Author-email: Your Name <you@example.com>
+Author-email: Jaliya Nimantha <jaliya@ahlab.org>
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: huggingface_hub
